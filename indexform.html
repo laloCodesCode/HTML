@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+<title>form</title>
+</head>
+<body>
+    
+<!--GET is unsafe for sensitiev data, use for searches instead-->
+<!--Post is more sutable for sentive data-->
+    <form action="action_page.php" method="POST">
+        <div>
+            <label for="Fname"> First name:</label>
+            <input type="text" id="fname" name="fname" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname"> Last name:</label>
+            <input type="text" id="lname" name="lname" required>
+        </div>
+       <br>
+       <div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+       </div>
+       <div>
+        <input type="reset">
+       </div>
+       <br>
+
+       <div>
+        <input type="submit"
+       </div>
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
